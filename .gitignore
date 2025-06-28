@@ -1,0 +1,35 @@
+# Python virtual environment
+venv/
+.venv/ 
+
+# Generated logs
+data/system_logs.log
+# Or if you have other generated files in data/
+# data/
+
+# Whoosh search index
+whoosh_index/
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyd
+*.o
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+eggs/
+*.egg-info/
+.env
+
+# Jupyter Notebook files (if you ever use them)
+.ipynb_checkpoints
+
+# Operating System files
+.DS_Store
+Thumbs.db
